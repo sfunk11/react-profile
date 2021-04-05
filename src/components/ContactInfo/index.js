@@ -1,12 +1,12 @@
 import React from "react";
-import PageHeader from "react-bootstrap/PageHeader";
+
 
 function ContactInfo () {
     return (
         <>
-        <PageHeader className="text-info pb-3 border-bottom border-info">
+        <header className="text-info pb-3 border-bottom border-info">
           Contact:
-        </PageHeader>
+        </header>
         <ul>
         <li> <a href = "mailto:borley1@gmail.com">borley1@gmail.com</a></li>
         <li> <a href= "https://www.linkedin.com/in/samantha-funk-99346b157">https://www.linkedin.com/in/samantha-funk-99346b157</a></li>
