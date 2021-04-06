@@ -3,12 +3,12 @@ import React from "react";
 // default context object with properties corresponding to Provider values
 
 const ProjectContext = React.createContext({
-  projects: [{
+  projects: {
     name: "",
     image: "",
-    technologies: [],
+    technologies: "",
     repoLink: ""
-  }]
+  }
   
 });
 

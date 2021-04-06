@@ -1,18 +1,20 @@
 import React from "react";
-
-import Card from "react-bootstrap/Card";
+import ProjectCard from "../ProjectCard";
+import ProjectContext from "../../utils/projectContext";
 
 function ProjectContainer(){
   return(
-    <Card bg="info" text="white">
-      <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-     <Card.Body>
-      <Card.Title >Panel heading with a title</Card.Title>
-      <p> Technologies Used: </p>
-      <p> comma separated list</p>
-      <p> Repository Link</p>
-      </Card.Body>
-  </Card>
+ 
+    <ProjectContext.Provider value={{
+      project: {
+      name: "Knowvid-19",
+      image: "./assets/images/knowvid-19.png",
+      technologies: "HTML, CSS, JSON, MySQL, Sequelize, Express, Handlebars, Axios, NodeJs, Multer, HTTP GET/POST/PUT  requests, and Server-side APIs",
+      repoLink: "https://github.com/Smart-Kids-Group/Covid-Project/"
+    }}}>
+    <ProjectCard />
+    </ProjectContext.Provider >
+    
   )
 
 };

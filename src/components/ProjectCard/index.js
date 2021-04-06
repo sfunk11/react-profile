@@ -1,21 +1,21 @@
-import React from "react";
-import Image from "react-bootstrap/Image";
+import React, { useContext } from "react";
 import Card from "react-bootstrap/Card";
+import ProjectContext from "../../utils/projectContext"
+
 
 function ProjectCard(){
-  return (
-  <Card bsStyle="info">
-    <Card.Heading>
-      <Card.Title componentClass="h3">Panel heading with a title</Card.Title>
-    </Card.Heading>
-    <Card.Body>
-      <Image className="float-left mr-3 mb-3" id="bio-image" src="/1536061001183.jpeg" alt="Sam Funk" rounded responsive/>
-      <h4> Technologies Used: </h4>
-      <p> comma separated list</p>
-      <p> Repository Link</p>
-      </Card.Body>
-  </Card>
-  ) 
+  const { project } = useContext(ProjectContext);
+    return(
+      <Card bg="info" text="white">
+        <Card.Img variant="top" src={project.image} />
+       <Card.Body>
+        <Card.Title >{project.name}</Card.Title>
+        <p> Technologies Used: </p>
+        <p> {project.technologies}</p>
+        <a href={project.repoLink}> Repository Link</a>
+        </Card.Body>
+    </Card>
+    ) 
 }
 
 export default ProjectCard;
