@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../ProjectCard";
 import ProjectContext from "../../utils/projectContext";
+import "../../App.css";
 
 function ProjectContainer(){
   return(

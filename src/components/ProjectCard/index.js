@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Card from "react-bootstrap/Card";
 import ProjectContext from "../../utils/projectContext"
-
+import "../../App.css";
 
 function ProjectCard(){
   const { project } = useContext(ProjectContext);

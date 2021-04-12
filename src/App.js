@@ -13,10 +13,10 @@ function App() {
   return (
   
    <BrowserRouter>
-   <Wrapper>
+   <Wrapper className="bg">
     <Navbar/>
     <Header/>
-    <Wrapper>
+    <Wrapper >
       <Switch>
           <Route exact path="/">
             <About />
