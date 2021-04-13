@@ -1,21 +1,23 @@
-import React from "react"
+import React, { useContext } from "react"
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import NoMatch from "./pages/NoMatch"
 import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import ProjectContext from "./utils/projectContext";
 
 function App() {
+  
+  const context = useContext(ProjectContext);
   return (
   
+    <ProjectContext.Provider value={context}>
    <BrowserRouter>
    <Wrapper className="bg">
     <Navbar/>
-    <Header/>
     <Wrapper >
       <Switch>
           <Route exact path="/">
@@ -35,6 +37,7 @@ function App() {
     <Footer/>
     </Wrapper>
     </BrowserRouter>
+    </ProjectContext.Provider>
   );
 }
 

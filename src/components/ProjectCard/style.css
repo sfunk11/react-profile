@@ -1,5 +1,5 @@
 @media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: portrait) {
-.card {
+.project {
   min-width: 300px;
   max-width: 45%;
 
@@ -7,7 +7,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .card {
+  .project {
     min-width: 100%;
    
   
@@ -15,10 +15,11 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  .card {
+  .project {
     min-width: 300px;
     max-width: 45%;
   
   }
   }
+
 

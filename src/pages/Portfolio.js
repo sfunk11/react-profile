@@ -1,16 +1,17 @@
 import React, { useContext } from "react";
-import ProjectContext from "../utils/projectContext";
-import ProjectContainer from "../components/ProjectContainer"
+import ProjectContainer from "../components/ProjectContainer";
+import Header from "../components/Header";
+import ProjectContext from "../utils/projectContext"
 import "../App.css";
 
 function Portfolio() {
-  
-  const { projects } = useContext(ProjectContext);
-
+ 
+  const { projectHeader } = useContext(ProjectContext)
   return (
-      <ProjectContext.Provider value={projects}>
-     <ProjectContainer className="projectContainer"/>
-     </ProjectContext.Provider>
+    <>
+    <Header header={projectHeader}/>
+    <ProjectContainer className="projectContainer"/>
+    </>
   );
 }
 

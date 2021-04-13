@@ -7,7 +7,7 @@ import "../../App.css";
 
 
 function ProjectContainer(){
-  const projects = useContext(ProjectContext)
+  const { projects } = useContext(ProjectContext)
 
   return(
     <Container className="main">

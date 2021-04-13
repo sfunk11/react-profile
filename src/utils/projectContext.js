@@ -3,6 +3,8 @@ import React from "react";
 // default context object with properties corresponding to Provider values
 
 const ProjectContext = React.createContext({
+  aboutheader: "Hi, I'm Sam! Welcome to my site...",
+  projectHeader: "Check out some of my projects!",
   projects: [
   {
     project: {

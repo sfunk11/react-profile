@@ -16,12 +16,16 @@ function AboutInfo () {
   <Row>
     <Col xs={12}>
       <Image className="float-left mr-3 mb-3" id="bio-image" src="/1536061001183.jpeg" alt="Sam Funk" rounded responsive/>
-      <p> Web Developer with years of experience managing relationship and internal cross functional program for Fortune 500 client. Experienced with both optimizing caller experience design and technical design considerations. Consistent history of guiding teams through difficult challenges, serving as a trusted client advisor, and maintaining high quality standards. I live in Indianapolis, IN with my family and our four corgis.</p>
+      <p> Full Stack Web Developer leveraging a ​background in program management and client services. Recognized for effective management and in depth technical knowledge of client systems. ​Completing a Certificate in Web Development from Butler University in April 2021. Excellent interpersonal communication skills,  Collaborator who works well on team-based projects as well as independently. Recognized for proven complex problem-solving abilities to contribute effectively as a part of a fast-paced, quality-driven team.</p>
+      
     </Col>
   </Row>
   <Row>
     <Col xs={12}>
-    <p>My portfolio is growing every week!  Check back frequently to see the newer things I have been up to. Send me a note or check me out on social media!</p>
+    <h5> Technical Skills & Languages: </h5>
+    <p> ReactJS, Node.Js, Express, JavaScript, jQuery, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap & React Bootsrap, Foundation CSS, APIs, Heroku, Terminal, Inquirer, AJAX, Axios, Multer, Restful API, ES6, JSON, Sequelize</p>
+    <br />
+    <p> Check back frequently to see the newer things I have been up to. Send me a note or check me out on social media!</p>
     </Col>
   </Row>
 </Container>
