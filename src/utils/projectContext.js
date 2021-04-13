@@ -46,10 +46,19 @@ const ProjectContext = React.createContext({
       name: "Eat the Burger",
       image: "./assets/images/burger-screenshot.png",
       description: "A full stack logging application that adds and updates to a DB.",
-      technologies: "HTML, CSS, JavaScript, JQuery, MySQL, Sequelize, NodeJS, Express, Handlebars, HTTP GET/POST/PUT requests.",
+      technologies: "HTML, CSS, JavaScript, JQuery, MySQL, Sequelize, NodeJS, Express, Handlebars, HTTP GET/POST/PUT requests, and Heroku web hosting.",
       repoLink: "https://github.com/sfunk11/burger",
       deployedLink: "https://agile-tundra-72704.herokuapp.com"
      }
+    },{
+      project: {
+        name: "Budget Tracker PWA",
+        image: "./assets/images/budget.png",
+        description: "Use this app to track income and expenses and chart them over time. This app can be installed on your device and uses your browser's IndexedDB to save transactions while you are offline, which sync up when your app is connected again.",
+        technologies: "HTML, CSS, JavaScript, MongoDB/Atlas, Mongoose, NodeJS, Express, Morgan, Webpack, Compression, Heroku Web hosting",
+        repoLink: "https://github.com/sfunk11/budget-tracker",
+        deployedLink: "https://aqueous-mountain-13059.herokuapp.com/"
+       }
     },{
      project: {
       name: "Employee Manager",
