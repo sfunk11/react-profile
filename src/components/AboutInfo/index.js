@@ -16,14 +16,14 @@ function AboutInfo () {
   <Row>
     <Col xs={12}>
       <Image className="float-left mr-3 mb-3" id="bio-image" src="/1536061001183.jpeg" alt="Sam Funk" rounded responsive/>
-      <p> Full Stack Web Developer leveraging a ​background in program management and client services. Recognized for effective management and in depth technical knowledge of client systems. ​Completing a Certificate in Web Development from Butler University in April 2021. Excellent interpersonal communication skills,  Collaborator who works well on team-based projects as well as independently. Recognized for proven complex problem-solving abilities to contribute effectively as a part of a fast-paced, quality-driven team.</p>
+      <p> Full Stack Web Developer leveraging a ​background in program management and client services. Recognized for effective management and in depth technical knowledge of client systems. ​Completing a Certificate in Web Development from Butler University in April 2021. Excellent interpersonal communication skills. Collaborator who works well on team-based projects as well as independently. Recognized for proven complex problem-solving abilities to contribute effectively as a part of a fast-paced, quality-driven team.</p>
       
     </Col>
   </Row>
   <Row>
     <Col xs={12}>
     <h5> Technical Skills & Languages: </h5>
-    <p> ReactJS, Node.Js, Express, JavaScript, jQuery, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap & React Bootsrap, Foundation CSS, APIs, Heroku, Terminal, Inquirer, AJAX, Axios, Multer, Restful API, ES6, JSON, Sequelize</p>
+    <p> ReactJS, Node.Js, Express, JavaScript, jQuery, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap & React Bootstrap, Foundation CSS, APIs, Heroku, Terminal, Inquirer, AJAX, Axios, Multer, Restful API, ES6, JSON, Sequelize</p>
     <br />
     <p> Check back frequently to see the newer things I have been up to. Send me a note or check me out on social media!</p>
     </Col>
