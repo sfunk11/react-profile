@@ -16,7 +16,7 @@ function App() {
   
     <ProjectContext.Provider value={context}>
    <BrowserRouter>
-   <Wrapper className="bg">
+   <Wrapper className="bg" >
     <Navbar/>
     <Wrapper >
       <Switch>
