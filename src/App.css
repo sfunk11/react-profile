@@ -41,10 +41,10 @@ body{
   }
 
 .bg{
-  background-image: url("https://a-static.besthdwallpaper.com/interlinked-lines-on-blurry-glass-wallpaper-3200x2400-17330_29.jpg");
-  background-size: cover;
-  background-repeat: repeat-y; 
-  background-position: center center;
+  background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+  /* background-size: cover; */
+  background-repeat: round; 
+  /* background-position: center center; */
   /* height: 200%;
   margin: fit-content  */
 }
