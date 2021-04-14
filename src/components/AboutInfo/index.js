@@ -15,7 +15,7 @@ function AboutInfo () {
         <Container>
   <Row>
     <Col xs={12}>
-      <Image className="float-left mr-3 mb-3" id="bio-image" src="/1536061001183.jpeg" alt="Sam Funk" rounded responsive/>
+      <Image className="float-left mr-3 mb-3" id="bio-image" src="/1536061001183.jpeg" alt="Sam Funk" rounded />
       <p> Full Stack Web Developer leveraging a ​background in program management and client services. Recognized for effective management and in depth technical knowledge of client systems. ​Completing a Certificate in Web Development from Butler University in April 2021. Excellent interpersonal communication skills. Collaborator who works well on team-based projects as well as independently. Recognized for proven complex problem-solving abilities to contribute effectively as a part of a fast-paced, quality-driven team.</p>
       
     </Col>
