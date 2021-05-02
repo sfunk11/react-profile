@@ -23,7 +23,7 @@ function AboutInfo () {
   <Row>
     <Col xs={12}>
     <h5> Technical Skills & Languages: </h5>
-    <p> ReactJS, Node.Js, Express, JavaScript, jQuery, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap & React Bootstrap, Foundation CSS, APIs, Heroku, Terminal, Inquirer, AJAX, Axios, Multer, Restful API, ES6, JSON, Sequelize</p>
+    <p> ReactJS, Node.Js, Express, JavaScript, jQuery, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap & React-Bootstrap, Foundation CSS, APIs, Heroku, Terminal, Inquirer, AJAX, Axios, Multer, Restful API, ES6, JSON, Sequelize</p>
     <br />
     <p> Check back frequently to see the newer things I have been up to. Send me a note or check me out on social media!</p>
     </Col>

@@ -6,7 +6,16 @@ const ProjectContext = React.createContext({
   aboutheader: "Hi, I'm Sam! Welcome to my site...",
   projectHeader: "Check out some of my projects!",
   projects: [
-  {
+    {
+      project: {
+        name: "Cooking4Normals",
+        image: "./assets/images/homepage.jpg",
+        description: "A platform for regular people to gather their favorite recipes, share with their friends, and learn new cooking techniques.",
+        technologies: "ReactJS, HTML, Firebase Authentication, Cloudinary, YouTube Integration, React-Bootstrap, Javascript, JSON, Axios, React Router, MongoDB, Heroku web hosting and Third Party APIs",
+        repoLink: "https://github.com/Smart-Kids-Group/Cooking4Normals",
+        deployedLink: "https://cooking4normals.herokuapp.com/"
+      }
+    },{
     project: {
       name: "Knowvid-19",
       image: "./assets/images/knowvid-19.png",
@@ -44,15 +53,6 @@ const ProjectContext = React.createContext({
       deployedLink: "https://obscure-thicket-71469.herokuapp.com"
     } 
    },{
-    project: {
-      name: "Eat the Burger",
-      image: "./assets/images/burger-screenshot.png",
-      description: "A full stack logging application that adds and updates to a DB.",
-      technologies: "HTML, CSS, JavaScript, JQuery, MySQL, Sequelize, NodeJS, Express, Handlebars, HTTP GET/POST/PUT requests, and Heroku web hosting.",
-      repoLink: "https://github.com/sfunk11/burger",
-      deployedLink: "https://agile-tundra-72704.herokuapp.com"
-     }
-    },{
       project: {
         name: "Budget Tracker PWA",
         image: "./assets/images/budget.png",
